@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-size:16px;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --red-text-color:#e50914;
+    --background-color:#232323;
+}
+
+html{
+    background-color:var(--background-color);
+}
+
+.main{
+    background-image:url(/Netflix_Clone/netflix_banner.jpg);
+    height:95vh;
+    width:100%;
+    position:relative;
+    background-position:bottom center;
+    background-repeat:no-repeat;
+    background-size:max(1200px,100vw);
+}
+.main .box{
+    height:95vh;
+    width:100%;
+    opacity:0.7;
+    background-color:black;
+    position:absolute;
+    top:0;
+}
+nav{
+    max-width:80vw;
+    height:7rem;
+    margin:auto;
+    justify-content:space-between;
+    display:flex;
+    align-items:center;
+    padding-left:1rem;
+    position:sticky;
+}
+nav span{
+    color:var(--red-text-color);
+}
+nav img{
+    width:9.5rem;
+    height:10rem;
+    position:relative;
+    z-index:10;
+}
+.nav_btn{
+    width:15.13rem;
+}
+nav .sign_in{
+       background-color:var(--red-text-color);
+       color:#FFFFFF;
+       padding:0.3rem 1.4rem;
+       border-radius:0.4rem;
+       font-weight:600;
+       position:relative;
+       z-index:11;
+       font-size:0.9rem;
+       border:2px solid var(--red-text-color);
+}
+nav .sign_in:hover{
+    background-color:#af0810;
+    border-color:#af0810;
+}
+nav #language{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.312);
+    border-radius:0.3rem;
+    padding:0.3rem 1.4rem;
+    margin-right:1.4rem;
+    position:relative;
+    z-index:2;
+    font-weight:500;
+    font-size:0.9rem;
+}
+#language_icon{
+    color:white;
+    width:45rem;
+    height:23rem;
+}
+.home{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    height:100%;
+    position:relative;
+}
+.home>:first-child{
+    font-weight:900;
+    font-size:48px;
+}
+
+.form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    top:0.7rem;
+}
+.email{
+    background-color: rgba(0, 0, 0, 0.6);
+    width:22rem;
+    padding:0.3rem 1rem;
+    height:3.5rem;
+    position: relative;
+    z-index:1;
+    top:14rem;
+    right:0.6rem;
+    border-radius:0.3rem;
+    border-color:#362F33;
+    border-style:groove;
+}
+::placeholder{
+    color:#BDBDB2;
+    font-size:1rem;
+}
+.st_btn{
+    display:inline-block;
+    background-color: var(--red-text-color);
+    text-decoration: none;
+    color:#FFFFFF;
+    padding:0.5rem 1rem;
+    border:2px solid var(--red-text-color);
+    border-radius: 0.2rem;
+    font-size:1.5rem;
+    font-weight:600;
+    position:relative;
+    z-index:1;
+    top:14rem;
+    
+}
+.st_btn:hover{
+    background-color:#af0810;
+    border-color:#af0810;
+}
+
+/* Second section */
+.second{
+    background-color:#000000;
+    position:relative;
+    top:0.5rem;
+    height:80vh;
+    display:flex;
+    max-width:max(1200px,100vw);
+}
+.content{
+    color:white;
+    display:inline-block;
+    width:41rem;
+    height:20rem;
+    position:relative;
+    top:12rem;
+    left:8.9rem;
+    justify-content:flex-start;
+}
+.content h1{
+    position:relative;
+    top:1rem;
+    font-size:2.7rem;
+    font-weight:800;
+}
+.content p{
+    position:relative;
+    top:1.7rem;
+    font-size:1.5rem;
+    font-weight: 500;
+}
+.vdo_cont{
+    display:inline-block;
+    position:relative;
+    top:3rem;
+    left:6rem;
+    width:39rem;
+    height:28rem;
+}
+.vdo_cont img{
+    width:36rem;
+    position:absolute;
+    z-index:1;
+}
+.vdo1{
+    width:26rem;
+}
+.vdo1 video{
+    width:26.3rem;
+    display:inline-block;
+    position:absolute;
+    top:5.56rem;
+    left:4.69rem;
+}
+
+/* Third section */
+.third{
+    background-color:#000000;
+    height:80vh;
+    color:white;
+    max-width:max(1200px,100vw);
+    position:relative;
+    top:1rem;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+.card{
+    position:relative;
+    width:7rem;
+    height:27rem;
+
+}
+.card img{
+    width:36rem;
+    position:absolute;
+    top:5rem;    
+}
+.rec{
+    border:2px solid white;
+    width:14rem;
+    height:8rem;
+    position:absolute;
+    left:7rem;
+}
+.rec img{
+      position:absolute;
+      top:0.8rem;
+      width:5rem;
+      height:6rem;
+}
+.rec h4{
+    position:absolute;
+    left:7rem;
+}
+.rec p{
+    position:absolute;
+    left:7rem;
+}
+.card h1{
+
+}
+
