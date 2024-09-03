@@ -9,61 +9,69 @@
       @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     </style>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-        </style>
-        
+      @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
   </head>
   <body>
     <div class="main">
       <div class="box"></div>
       <nav>
-        <span><img width="53" src="/Netflix_Clone/logo.svg" alt="logo" /></span>
-        <div class="nav_btn">
-          <select name="language" id="language">
-            <option value="English">
-              <img
-                src="/Netflix_Clone/language_icon.png"
-                alt="language_icon"
-                id="language_icon"
-              />English
-            </option>
+        <span><img width="53" src="/logo.svg" alt="logo" /></span>
+        <div>
+          <select name="lang" id="language">
+            <option value="English">English</option>
             <option value="Hindi">Hindi</option>
           </select>
-          <button class="sign_in">Sign In</button>
+          <button class="btn btn-si">Sign In</button>
         </div>
       </nav>
 
       <div class="home">
-          <span>Unlimited movies, TV shows and more</span>
-          <span>Watch anywhere. Cancel anytime</span>
-          <span> Ready to watch? Enter your email to create or restart your membership.</span>
+        <span>Enjoy big movies, hit series and more from ₹149</span>
+        <span>Join today. Cancel anytime.</span>
+        <span>
+          Ready to watch? Enter your email to create or restart your
+          membership.</span
+        >
+        <div class="form">
+          <input type="email" placeholder="Email address" class="email" />
+          <a href="/" class="btn btn-red-sm">Get Started &gt;</a>
+        </div>
       </div>
-      <div class="form">
-        <input type="email" placeholder="Email address" class="email" />
-        <a href="/" class="st_btn">Get Started ></a>
-      </div>
+      <div class="separation"></div>
     </div>
 
     <div class="second">
-        <div class="content">
-            <h1>Enjoy on your TV</h1>
-            <p>Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more</p>
+      <div class="content">
+        <h1>Enjoy on your TV</h1>
+        <p>
+          Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more
+        </p>
+      </div>
+      <div class="vdo_cont">
+        <img src="/Netflix_Clone/vdo_container1.png" alt="vdo_container" />
+        <div class="vdo1">
+          <video
+            src="/Netflix_Clone/netflix_tour_vdo.m4v"
+            autoplay
+            loop
+            muted
+          ></video>
         </div>
-        <div class="vdo_cont">
-            <img src="/Netflix_Clone/vdo_container1.png" alt="vdo_container">
-            <div class="vdo1">
-                <video src="/Netflix_Clone/netflix_tour_vdo.m4v" autoplay loop muted></video>
-            </div>
-        </div>
+      </div>
     </div>
 
     <!-- Third section -->
-     <div class="third">
+    <div class="third">
       <div class="card">
-        <img src="/Netflix_Clone/netfllix_girl.jpg" alt="girl">
+        <img src="/Netflix_Clone/netfllix_girl.jpg" alt="girl" />
         <div class="rec">
-          <img src="/Netflix_Clone/stranger things poster.png" alt="stranger_things">
-        
+          <img
+            src="/Netflix_Clone/stranger things poster.png"
+            alt="stranger_things"
+          />
+
           <h4>Stranger Things</h4>
           <p>Downloading...</p>
         </div>
@@ -73,6 +81,6 @@
         <h1>Downloading your shows to watch offline</h1>
         <p>Save your favourites easily and always have something to watch.</p>
       </div>
-     </div>
+    </div>
   </body>
 </html>
